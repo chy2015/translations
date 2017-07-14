@@ -1,10 +1,8 @@
 {
-  "name": "locations/locations",
-  "type": "package",
+  "name": "laravel-translatons",
+  "type": "project",
   "description": "Laravel Json Locations Manager. Import all app language strings from lang folder",
-  "keywords": ["laravel","laravel 5.4","Laravel Json Locations Manager", "Laravel 5.4 Localization Using Translation Strings As Keys"],
-  "minimum-stability": "stable",
-  "license": "MIT",
+  "license": "xx",
   "authors": [
     {
       "name": "Christian De Amorim",
