@@ -1,0 +1,22 @@
+{
+  "name": "locations/locations",
+  "type": "package",
+  "description": "Laravel Json Locations Manager. Import all app language strings from lang folder",
+  "keywords": ["laravel","laravel 5.4","Laravel Json Locations Manager", "Laravel 5.4 Localization Using Translation Strings As Keys"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian De Amorim",
+      "email": "christian201d@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "Busup\\Locations\\": "src/"
+    }
+  },
+  "config": {
+      "preferred-install": "dist"
+  }
+}
