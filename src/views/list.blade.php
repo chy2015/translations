@@ -5,10 +5,10 @@
 
             <h2 class=" text-center">Language {{ucfirst($lang)}}</h2>
             <div class="col-xs-6 text-center">
-                <div class="alert alert-info" role="alert">Langs: 'es_ES', '{{ucfirst($lang)}}'</div>
+                <div class="alert alert-info" role="alert">{{__('Idiomas')}}: 'es_ES', '{{ucfirst($lang)}}'</div>
             </div>
             <div class="col-xs-6">
-                <a href="{{route('amamarul.translations.lang.generateJson',$lang)}}" class="btn btn-success btn-block pull-right">Generate Json File</a>
+                <a href="{{route('amamarul.translations.lang.generateJson',$lang)}}" class="btn btn-success btn-block pull-right">{{__('Generar Archivo Idioma')}}</a>
             </div>
             <table class="table table-striped">
             @foreach($list as $key => $value)
@@ -19,14 +19,14 @@
                             <td><a href="#" class="testEdit" data-type="textarea" data-column="code" data-url="{{url('translations/lang/update/'.$value->code)}}" data-pk="{{$value->code}}" data-title="change" data-name="{{$key}}">{{$element}}</a></td>
                         @endif
                     @endforeach
-                    <td><a href="{{route('amamarul.translations.lang.string',$value->code)}}" class="btn btn-xs btn-warning">Show</a></td>
+                    <td><a href="{{route('amamarul.translations.lang.string',$value->code)}}" class="btn btn-xs btn-warning">{{__('Mostrar')}}</a></td>
                 </tr>
             @endforeach
             </table>
         </div>
     </div>
 @endsection
-@section(config('amamarul-location.scripts_section'))
+@section(config('location.scripts_section'))
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>

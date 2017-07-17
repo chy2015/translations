@@ -3,7 +3,7 @@
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#frontend-navbar-collapse">
-                <span class="sr-only">{{__('Toggle Navigation')}}</span>
+                <span class="sr-only">{{__('Navegación')}}</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
