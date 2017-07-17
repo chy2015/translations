@@ -1,5 +1,6 @@
 <?php namespace Chy2015\Translations\Providers;
 
+use Chy2015\Translations\Commands\SearchCommand;
 use Illuminate\Support\ServiceProvider;
 use Chy2015\Translations\Services\Helper;
 
@@ -61,6 +62,7 @@ class LaravelJsonLocationsManagerServiceProvider extends ServiceProvider
     protected $commands = [
         InstallCommand::class,
         PublishAllCommand::class,
+        SearchCommand::class,
 
     ];
 }
