@@ -1,14 +1,14 @@
 <?php
 
-Route::group(['prefix' => config('amamarul-location.prefix') ,'as' => 'amamarul.translations.'], function(){
+Route::group(['prefix' => config('location.prefix') ,'as' => 'amamarul.translations.'], function(){
 
-    Route::get('home', '\Busup\LocationsControllers\HomeController@index')->name('home');
-    Route::get('lang/{lang}', '\Busup\LocationsControllers\HomeController@lang')->name('lang');
-    Route::get('lang/generateJson/{lang}', '\Busup\LocationsControllers\HomeController@generateJson')->name('lang.generateJson');
-    Route::get('newLang', '\Busup\LocationsControllers\HomeController@newLang')->name('lang.newLang');
-    Route::get('newString', '\Busup\LocationsControllers\HomeController@newString')->name('lang.newString');
-    Route::get('search', '\Busup\LocationsControllers\HomeController@search')->name('lang.search');
-    Route::get('string/{code}', '\Busup\LocationsControllers\HomeController@string')->name('lang.string');
-    Route::get('publish-all', '\Busup\LocationsControllers\HomeController@publishAll')->name('lang.publishAll');
+    Route::get('home', '\Chy2015\Translations\Controllers\HomeController@index')->name('home');
+    Route::get('lang/{lang}', '\Chy2015\Translations\Controllers\HomeController@lang')->name('lang');
+    Route::get('lang/generateJson/{lang}', '\Chy2015\Translations\Controllers\HomeController@generateJson')->name('lang.generateJson');
+    Route::get('newLang', '\Chy2015\Translations\Controllers\HomeController@newLang')->name('lang.newLang');
+    Route::get('newString', '\Chy2015\Translations\Controllers\HomeController@newString')->name('lang.newString');
+    Route::get('search', '\Chy2015\Translations\Controllers\HomeController@search')->name('lang.search');
+    Route::get('string/{code}', '\Chy2015\Translations\Controllers\HomeController@string')->name('lang.string');
+    Route::get('publish-all', '\Chy2015\Translations\Controllers\HomeController@publishAll')->name('lang.publishAll');
 });
-Route::post('translations/lang/update/{id}', '\Busup\LocationsControllers\HomeController@update')->name('amamarul.translations.lang.update');
+Route::post('translations/lang/update/{id}', '\Chy2015\Translations\Controllers\HomeController@update')->name('amamarul.translations.lang.update');

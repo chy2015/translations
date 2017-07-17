@@ -1,6 +1,6 @@
 <?php
 
-namespace Busup\Locations\Requests;
+namespace  Chy2015\Translations\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

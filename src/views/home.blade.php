@@ -1,6 +1,6 @@
-@extends(config('amamarul-location.layout'))
+@extends(config('location.layout'))
 
-@section(config('amamarul-location.content_section'))
+@section(config('location.content_section'))
         @include('vendor.langs.includes.tools')
         <h2 class="text-center">{{__('Languages installed')}}</h2>
 

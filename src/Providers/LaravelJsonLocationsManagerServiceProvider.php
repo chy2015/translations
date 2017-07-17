@@ -1,10 +1,10 @@
 <?php namespace Chy2015\Translations\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Busup\Locations\Helpers\Helper;
+use Chy2015\Translations\Services\Helper;
 
-use Busup\Locations\Commands\InstallCommand;
-use Busup\Locations\Commands\PublishAllCommand;
+use Chy2015\Translations\Commands\InstallCommand;
+use Chy2015\Translations\Commands\PublishAllCommand;
 
 class LaravelJsonLocationsManagerServiceProvider extends ServiceProvider
 {
@@ -32,7 +32,7 @@ class LaravelJsonLocationsManagerServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../config/location.php' => base_path('config/location.php'),
-        ], 'amamarul-location');
+        ], 'location');
 
         $this->publishes([
             __DIR__ . '/../views' => base_path('/resources/views/vendor/langs')], 'views');

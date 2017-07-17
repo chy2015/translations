@@ -2,7 +2,7 @@
 
 namespace Chy2015\Translations\Commands;
 
-use App\Models\Strings;
+use Chy2015\Translations\Models\Strings;
 use Illuminate\Console\Command;
 
 use Illuminate\Database\Schema\Blueprint;

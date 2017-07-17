@@ -1,10 +1,10 @@
 <?php namespace Chy2015\Translations\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\NewLangFormRequest;
-use App\Http\Requests\NewStringFormRequest;
-use App\Http\Requests\SearchFormRequest;
-use App\Models\Strings;
+use  App\Http\Controllers\Controller;
+use  Chy2015\Translations\Requests\NewLangFormRequest;
+use  Chy2015\Translations\Requests\NewStringFormRequest;
+use  Chy2015\Translations\Requests\SearchFormRequest;
+use  \Chy2015\Translations\MOdels\Strings;
 use Illuminate\Http\Request;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Database\Schema\Blueprint;

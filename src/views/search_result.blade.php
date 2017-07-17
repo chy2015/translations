@@ -1,5 +1,5 @@
-@extends(config('amamarul-location.layout'))
-@section(config('amamarul-location.content_section'))
+@extends(config('location.layout'))
+@section(config('location.content_section'))
         @include('vendor.langs.includes.tools')
         <h2 class="text-center">{{__('Search Result for')}} '{{$search_value }}'</h2>
         @if (count($result) > 0)

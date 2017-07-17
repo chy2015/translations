@@ -1,5 +1,5 @@
-@extends(config('amamarul-location.layout'))
-@section(config('amamarul-location.content_section'))
+@extends(config('location.layout'))
+@section(config('location.content_section'))
         @include('vendor.langs.includes.tools')
         <div class="col-md-12">
 
