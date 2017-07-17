@@ -1,6 +1,6 @@
 <?php
 
-namespace Busup\Locations\Commands;
+namespace Chy2015\Translations\Commands;
 
 use App\Models\Strings;
 use Illuminate\Console\Command;

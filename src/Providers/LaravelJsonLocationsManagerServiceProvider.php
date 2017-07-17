@@ -1,4 +1,4 @@
-<?php namespace Busup\Locations\Providers;
+<?php namespace Chy2015\Translations\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Busup\Locations\Helpers\Helper;

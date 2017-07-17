@@ -1,4 +1,4 @@
-<?php namespace Busup\Locations\Controllers;
+<?php namespace Chy2015\Translations\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\NewLangFormRequest;

@@ -1,4 +1,4 @@
-<?php namespace Busup\Locations\Models;
+<?php namespace Chy2015\Translations\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

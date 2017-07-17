@@ -1,4 +1,4 @@
-<?php namespace  Busup\Locations\Helpers;
+<?php namespace  Chy2015\Translations\Helpers;
 
 class Helper {
     public static function loadModuleHelpers($dir)

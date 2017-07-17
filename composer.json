@@ -1,5 +1,5 @@
 {
-  "name": "chy/laravel-translations",
+  "name": "chy2015/translations",
   "type": "project",
   "description": "Laravel Json Locations Manager. Import all app language strings from lang folder",
   "license": "xx",
@@ -11,7 +11,7 @@
   ],
   "autoload":{
     "psr-4": {
-      "Busup\\Locations\\": "src/"
+      "Chy2015\\Translations\\": "src/"
     }
   }
 }
